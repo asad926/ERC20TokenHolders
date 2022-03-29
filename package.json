@@ -1,0 +1,21 @@
+{
+  "name": "get_token_holders",
+  "version": "1.0.0",
+  "description": "N0Name first task of taking screenshot from video at specified timestamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "author": "Asad Iqbal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "ethers": "^5.6.1",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security"
+  }
+}
